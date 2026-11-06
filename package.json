@@ -1,6 +1,6 @@
 {
   "name": "magpie-agent-musacode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A magpie agent plugin for MUSACode: pick its model in magpie, OpenCode-compatible config.",
   "type": "module",
   "license": "MIT",
