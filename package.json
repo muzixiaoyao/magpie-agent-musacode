@@ -1,0 +1,43 @@
+{
+  "name": "magpie-agent-musacode",
+  "version": "0.1.0",
+  "description": "A magpie agent plugin for MUSACode: pick its model in magpie, OpenCode-compatible config.",
+  "type": "module",
+  "license": "MIT",
+  "author": "木子逍遥 <wsxiaoyao@live.com> (https://github.com/muzixiaoyao)",
+  "homepage": "https://github.com/muzixiaoyao/magpie-agent-musacode#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muzixiaoyao/magpie-agent-musacode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muzixiaoyao/magpie-agent-musacode/issues"
+  },
+  "keywords": [
+    "magpie",
+    "magpie-plugin",
+    "magpie-agent",
+    "opencode",
+    "opencode-plugin",
+    "musacode",
+    "ai",
+    "agent"
+  ],
+  "files": [
+    "agent.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "magpie": {
+    "agent": "./agent.js",
+    "name": "MUSACode",
+    "summary": {
+      "zh": "让 MUSACode 像其他 Agent 一样，在 magpie 里选模型",
+      "en": "Pick MUSACode's model in magpie, like any other agent"
+    }
+  }
+}
